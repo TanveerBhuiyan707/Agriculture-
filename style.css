@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-1{
+    background-color: #FAFAFA;
+}
+nav{
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.left-nav{
+    width: 50%;
+    padding:1rem 0;
+}
+.left-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.right-nav{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 50%;
+}
+.right-nav ul{
+    list-style: none;
+    display: inline-flex;
+}
+.right-nav ul li{
+    padding: 0 1rem;
+    font-size: 2em;
+}
+.right-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.right-nav ul li a:hover{
+    color: #30975B;
+}
+.right-nav button{
+    padding: 1.2rem 1.2rem;
+    border-radius: 2em;
+    font-weight: bolder;
+    border-color: gray;
+}
+.section-1-body{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.section-1-body-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    font-family: arial black;
+}
+.section-1-body-left h1{
+    font-size: 5em;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section-1-body-left h3{
+    position: relative;
+    left: 3.125rem;
+}
+.input{
+    box-shadow:0px 1px 16px black;
+    border-radius: 1.5rem;
+    width: 30em;
+    position: relative;
+    top: 1.3rem;
+}
+.input input{
+    background-color: #fff;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    width: 20em;
+    border-radius: 1.5rem;
+    border: none;
+}
+.input input:focus,.input-2 input:focus{
+    outline: none;
+}
+input[placeholder]{
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.btn{
+    padding: 1.5625rem 2.5rem;
+    border-radius:1.5rem;
+    border: none;
+    background-color: #30975B;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 2.1rem;
+}
+.sec-1-body-left-last{
+    width: 5in;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1.25rem;
+}
+
+.left img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-left: -1.25rem;
+    border: 5px solid #fff;
+    outline-offset: 5px;
+
+}
+.right h4{
+    font-size: 0.75rem;
+    color: #ddd;
+    margin-left: 10px;
+}
+.right h4:last-child{
+    color: rgb(102, 97, 97);
+}
+
+.section-1-last h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.section-1-last-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-last-logo img{
+    width: 8.125rem;
+    margin-left: 2.5rem;
+}
+.section-2{
+    display: flex;
+}
+.section-2-left{
+    width: 34.375rem;
+    height: 7.29in;
+    margin: 6.25rem 6.25rem;
+}
+.section-2-left img{
+    border-radius: 13.75rem 6.25rem 8.125rem;
+    width: 31.25rem;
+    height: 7.29in;
+}
+.section-2-right{
+    width: 31.25rem;
+    height: 31.25rem;
+    margin-top: 15rem;
+}
+.section-2-right h1{
+    font-size: 3rem;
+}
+.section-2-right p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 1.2rem;
+    color: darkgray;
+}
+.section-2-right button{
+    padding: 1.2rem 2rem;
+    border-radius: 1rem;
+    background-color: #30975B;
+    color: white;
+    border: none;
+    margin-top: 2rem;
+    width: 11.25rem;
+    font-size: 1rem;
+}
+.section-3{
+    position: relative;
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+
+
+.sec-3-up{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+.sec-3-up h2{
+    font-size: 2.5rem;
+}
+.sec-3-up h3{
+    font-size: 1.2rem;
+    color: darkgray;
+    font-family: sans-serif;
+    line-height: 1.9rem;
+}
+.sec-3-down{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.sec-3-down > div{
+    background-color: #fff;
+    width: 16.875rem;
+    height: 22.25rem;
+    border-radius: 2rem;
+    top: 1.8rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 5px black;
+    /* gap: 100px; */
+}
+.sec-3-down > div img{
+    height: 6.25rem;
+    border-radius: 6rem;
+}
+.sec-3-down > div p{
+    width: 80%;
+    color: darkgray;
+    line-height: 1.3rem;
+}
+.sec-3-down-last p{
+    color: #30975B;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.sec-4-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+}
+.sec-4-div h1{
+    font-size: 48px;
+    font-family: sans-serif;
+}
+.sec-4-div p{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #8e8e8e;
+}
+.counter-div{
+    width: 550px;
+    height: 102px;
+    background-color: #2e6541;
+    margin: 48px 0 0;
+    padding: 12px 0 12px 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1.3rem;
+}
+.counter-div-1 h1,.counter-div-2 h1,.counter-div-2 h1{
+    font-size: 24px;
+    color: #f8fffd;
+}
+.counter-div-1 p,.counter-div-2 p,.counter-div-3 p{
+    font-size: 16px;
+    color: #b5d0bf;
+}
+.counter-div-3{
+    width: 78px;
+    height: 78px;
+    background-color: #55f08c;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-arrow-right{
+    border: none;
+    background-color: #55f08c;
+    outline: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.sec-4-last-div img{
+    width: 528px;
+    height: 600px;
+    border-radius: 3rem 11rem 3rem 3rem;
+}
+.footer{
+    margin-top: 80px;
+    background-image: url('img/footer__bg.webp');
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    filter:brightness(80%);
+}
+.footer-left{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.footer-left h1{
+    font-size: 48px;
+    color: #fff;
+}
+.footer-left p{
+    font-size: 24px;
+    color: #fff;
+}
+
+.input-2 input{
+    background-color: #fff;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    width: 20em;
+    border-radius: 1.5rem;
+    border: none;
+}
+.btn-2{
+    padding: 22px 40px;
+    border-radius:1.5rem;
+    border: none;
+    background-color: #30975B;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: -3rem;
+}
+.footer-right{
+    display: flex;
+    gap: 1.5rem;
+}
+.footer-right a {
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+/* responsive */
+
+/* @media screen and (max-width:600px;){
+ 
+} */
